@@ -1,4 +1,4 @@
 fleetio:
-  appsignal: https://push.appsignal.com/1/markers?name=Fleetio&environment=production&api_key=<%= ENV["APP_SIGNAL_API_KEY"] %>
+  appsignal: https://push.appsignal.com/1/markers/heroku?name=Fleetio&environment=production&api_key=<%= ENV["APP_SIGNAL_API_KEY"] %>
 fleetio-stage:
-  appsignal: https://push.appsignal.com/1/markers?name=Fleetio&environment=staging&api_key=<%= ENV["APP_SIGNAL_API_KEY"] %>
+  appsignal: https://push.appsignal.com/1/markers/heroku?name=Fleetio&environment=staging&api_key=<%= ENV["APP_SIGNAL_API_KEY"] %>
